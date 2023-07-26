@@ -1,12 +1,16 @@
-（色代码）
+//(色代码)
+#include<stdio.h>
+#include<Windows.h>
+
 int main() 
 {
     printf("去色色\n");
     int line = 0;
-    while(line<10000)
+    while(line<10)
     {
         line++;
         printf("我不要色色\n");
+        Sleep(1000);
     }
     printf("就要色色\n");
     return 0;
