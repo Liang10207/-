@@ -1,0 +1,13 @@
+（色代码）
+int main() 
+{
+    printf("去色色\n");
+    int line = 0;
+    while(line<10000)
+    {
+        line++;
+        printf("我不要色色\n");
+    }
+    printf("就要色色\n");
+    return 0;
+}
